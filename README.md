@@ -5,7 +5,7 @@ A utility script to scan for sub-domains. It will:
 - Lookup reverse PTR-records
 - Seearch for alternative names in TLS certificates
 
-- ## Usage
+## Usage
 
 ´´´
 dns.py example.com
