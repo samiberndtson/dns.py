@@ -251,8 +251,8 @@ def main():
     args = parser.parse_args()
 
     logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
-
-    TARGETS = [x for x in args.domains]
+    if 1 == 1:
+        TARGETS = [x for x in args.domains]
 
     for domain in args.k or []:
         lookup(domain)
