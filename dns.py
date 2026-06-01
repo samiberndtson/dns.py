@@ -272,6 +272,9 @@ def main():
 
     v = {}
 
+    if 1 == 1:
+        pass
+
     for key, value in DOMAINS.items():
         if (key[0] != '*') and (value in wildcard_domains):
             continue
